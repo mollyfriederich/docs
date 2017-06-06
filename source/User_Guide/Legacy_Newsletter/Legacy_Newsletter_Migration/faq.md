@@ -107,7 +107,7 @@ Both Legacy Newsletter and Marketing Campaigns start with your base SendGrid pla
 
 From there, each email marketing solution charges a premium for sending through the user interface. With Legacy Newsletter it’s a **$0.25 fee per 1,000 emails you send**. For Marketing Campaigns, it’s a **$10 fee per 10,000 contacts you store**. Your first 2,000 contacts in Marketing Campaigns are free.
 
-As an incentive to migrate to Marketing Campaigns, you can [choose how you’d like to pay]( https://app.sendgrid.com/settings/choose_how_you_pay): 
+As an incentive to migrate to Marketing Campaigns, if you've used Legacy Newsletter between 9/30/16 and 3/30/17 you can [choose how you’d like to pay]( https://app.sendgrid.com/settings/choose_how_you_pay): 
 
 <table class="table" style="table-layout:fixed">
   <tr>
