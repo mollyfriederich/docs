@@ -12,8 +12,8 @@ navigation:
 ## Legacy Newsletter Sunset
 
 * [Why did you retire Legacy Newsletter?](#-Why-did-you-retire-Legacy-Newsletter)
-* [How long will Legacy Newsletter be available?](#-How-long-will-Legacy-Newsletter-be-available)
-* [What will happen to my account when the product is retired?](#-What-will-happen-to-my-account-when-the-product-is-retired)
+* [Is Legacy Newsletter no longer available?](#-Is-Legacy-Newsletter-no-longer-available)
+* [What will happen to my account when the product is retired?](#-What-will-happen-to-my-account-now-that-the-tool-is-retired)
 * [What if I choose not to migrate?](#-What-if-I-choose-not-to-migrate)
 
 ## [Pricing](#-Pricing)
@@ -73,15 +73,17 @@ Over time, the needs and expectations of our customers—and the market at large
 In order to best meet your email marketing needs, our focus will be dedicated to optimizing Marketing Campaigns moving forward. Without continued investment, Legacy Newsletter would have become obsolete and impractical for us to continue to support to the degree our customers deserve.
 
 {% anchor h3 %}
-How long will Legacy Newsletter be available?
+Is Legacy Newsletter no longer available?
 {% endanchor %}
 
-As of **September 30, 2017**, Legacy Newsletter has been deprecated. You can no longer create or send campaigns, though you can download data for a **brief** grace period. SendGrid recommends you [migrate to Marketing Campaigns]({{root_url}}/User_Guide/Legacy_Newsletter/migration_checklist.html).  
+As of **September 30, 2017**, Legacy Newsletter has been deprecated. You can no longer create or send campaigns. 
+
+As a safety net, you can download data from the application for a **brief** grace period. SendGrid recommends you [migrate to Marketing Campaigns]({{root_url}}/User_Guide/Legacy_Newsletter/migration_checklist.html).  
 
 Whether or not you choose not to migrate, you need to download any data from Legacy Newsletter you wish to maintain **ASAP**.
 
 {% anchor h3 %}
-What will happen to my account when the product is retired?
+What will happen to my account now that the tool is retired?
 {% endanchor %}
 
 Now that Legacy Newsletter has been sunset, you cannot create or send campaigns.  This deprecation includes both the web interface at sendgrid.com/newsletter and [APIs]({{root_url}}/API_Reference/Web_API/Legacy_Features/Marketing_Emails_API/index.html) at `api.sendgrid.com/api/newsletter`.
@@ -89,7 +91,7 @@ Now that Legacy Newsletter has been sunset, you cannot create or send campaigns.
 Statistics related to email sent through Legacy Newsletter before deprecation will be included in your overall SendGrid stats, and are identifiable by the default category of Newsletter, along with any additional categories you’ve assigned your Legacy Newsletter campaigns.
 
 {% warning %}
-There is currently a **brief** grace period to access and download any data you have stored in the application such as contact lists, templates, statistics, or prior campaigns.
+As a safety net, there is currently a **brief** grace period to access and download any data you have stored in the application such as contact lists, templates, statistics, or prior campaigns.
 {% endwarning %} 
 
 {% anchor h3 %}
