@@ -13,17 +13,17 @@ navigation:
 
 <call-out type="warning">
 
-Automation is currently in closed beta, and you may not have access to the feature. Since this is a beta, we reserve the right to change the functionality at any time without warning. For more information on the Automation beta, see our [Email Marketing Automation](https://sendgrid.com/solutions/marketing-automation/) page. 
+Automation is currently in closed beta. Only approved beta participants have access the feature. While in beta, we reserve the right to change the functionality at any time without warning. For more information on the Automation beta, or to sign up to participate, see our [Email Marketing Automation](https://sendgrid.com/solutions/marketing-automation/) page. 
 
 </call-out>
 
-SendGrid’s Automation beta allows you to send a series of emails to contacts automatically when you add them to a list you’ve specified. Automations are simple to set up, and once created, you can trigger them by adding new recipients to your chosen list, saving you time.
+SendGrid’s Automation beta allows you to send a series of emails to contacts automatically according to a cadence you define. Automations are simple to set up, and once created, you can trigger them to send by adding new recipients to a list you've chosen, saving you time.
 
 <iframe src="https://player.vimeo.com/video/289518438" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-With the Automation beta, you can build campaigns to: 
+With the Automation beta, you can build email campaigns to: 
 
-* Welcome new contacts when they join your list with a warm welcome and introductory tips.
+* Welcome new contacts when they join your list with a warm hello and introductory tips.
 * Engage contacts who’ve downloaded an asset from you with follow-up content. 
 * Promote an upcoming event to a list of invitees with a series of reasons to attend.
 
@@ -34,25 +34,25 @@ For beta participants who also use Marketing Campaigns, it’s important to know
 * Templates
 * Account activity notifications (for example, the email you receive when a CSV export is complete)
 
-Unsubscribe Groups and Senders **are shared** between Marketing Campaigns and Automation.
+Note: Unsubscribe Groups and Senders **are shared** between Marketing Campaigns and Automation.
 
 Additionally, during this phase of the beta, some Marketing Campaigns features will not be available in Automation. For easy reference, the primary feature gaps include: 
 * Ability to view Automation contact list details
-* Ability to Search, edit, or export Automation contacts
+* Ability to search, edit, or export Automation contacts
 * Create or use custom fields
-* Segmentation
-* A/B testing
+* Create or use a segment
+* A/B testing email content or subject lines
 * Some non-essential editor functionality
-* Link tracking
+* Link click tracking
 * API compatibility
 
-We’ll be working iteratively to close these feature gaps as quickly as possible. For more information on future releases, please see our [Coming Soon] page. (Links to page approved by legal)
+We’ll be working iteratively to close these feature gaps as quickly as possible. For more information on future releases, please see our [Coming Soon] page. 
 
 ## Getting Started
 
 Before you start building automations, you need to complete the following:
 
-* [Upload Contacts]({{root_url}}#upload-contats)
+* [Upload contacts]({{root_url}}#upload-contats)
 * Add an Automation [notification]({{root_url}}#notifications) email
 * Create [Unsubscribe Groups]({{root_url}}#create-unsubscribe-groups)
 * Add a [sender]({{root_url}}/ui/sending-email/senders/) (optional) 
@@ -61,7 +61,7 @@ Before you start building automations, you need to complete the following:
 
 <call-out type="warning">
 
-During the beta, contacts you upload to Automation are distinct from your existing Marketing Campaigns contacts. An automation contact will be treated as new even if they’ve been in your Marketing Campaigns contacts for some time. 
+During the beta, contacts you upload to Automation are distinct from your existing Marketing Campaigns contacts. An Automation contact will be treated as new even if they’ve been in your Marketing Campaigns contacts for some time. 
 
 </call-out>
 
@@ -75,11 +75,11 @@ During the beta, automations will only trigger to contacts *the first time* they
 
 1. Use this CSV template to make sure your CSV is formatted correctly.
 1. Click **Add Contacts** and then select **Upload CSV**.
-1. Choose an existing list or create a new list.
+1. Choose whether to add your contacts to All Contacts, to an existing list, or to a new list you create.
 
 <call-out>
 
-At this phase of the beta, custom fields are not supported. You can import [reserved fields]({{root_url}}/ui/managing-contacts/custom-fields/#reserved-fields), including ``email``, ``first_name``, and ``last_name``, etc.
+At this phase of the beta, custom fields are not supported. You can import [reserved fields]({{root_url}}/ui/managing-contacts/custom-fields/#reserved-fields), including ``email``, ``first_name``, ``last_name``, and address fields.
 
 </call-out>
 
@@ -88,11 +88,11 @@ At this phase of the beta, custom fields are not supported. You can import [rese
 
 ### Notifications
 
-<call-out>
+<call-out type="warning">
 Notification emails added in Marketing Campaigns won't receive any emails regarding Automation activity. 
 </call-out>
 
-If you would like to have notifications sent to an email other than your parent account address, you can opt-in to receive email notifications from SendGrid about your account's Automation activity.
+Emails added to Notifications will receive alerts for Automation activities such as contact uploads. These notifications will automatically be sent to the email associated with your parent account.
 
 *To add a notification email address:*
 
