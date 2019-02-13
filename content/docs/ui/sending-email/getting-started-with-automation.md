@@ -378,8 +378,11 @@ Have feedback or questions? We welcome your thoughts at email_automation@sendgri
     <td>Availability of the public facing <a href="https://sendgrid-automation.api-docs.io/v3/getting-started/authentication">Automation Contact APIs</a>.</td>
     <td>LIVE</td>
   </tr>
-  <tr>
-    <td>Ability to search, edit, delete, and export contacts.</td>
+   <tr>
+    <td>Ability to edit contacts from All Contacts and export Lists and All Contacts.</td>
+    <td>Live</td>
+  </tr><tr>
+    <td>Ability to search and delete contacts.</td>
     <td>In progress</td>
   </tr>
   <tr>
