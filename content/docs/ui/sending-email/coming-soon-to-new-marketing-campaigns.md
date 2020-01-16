@@ -57,7 +57,7 @@ There are some important features that are coming soon to our brand new version 
     <td><span style="color:#18c96e;">Delivered</span></td>
   <tr>
     <td>View a sample of contacts on a list</td>
-    <td>Delivered</td>
+    <td><span style="color:#18c96e;">Delivered</span></td>
   </tr>
   <tr>
     <td>Designate an IP pool for a Single Send</td>
@@ -65,22 +65,18 @@ There are some important features that are coming soon to our brand new version 
   </tr>
   <tr>
     <td>Trigger an automation to a segment</td>
-    <td>Q4 2019</td>
+    <td>Q1 2019</td>
   </tr>
   <tr>
     <td>View per-contact engagement data</td>
-    <td>Future</td>
+    <td>H1 2020</td>
   </tr>
   <tr>
     <td>View which links within an email were clicked</td>
-    <td>Future</td>
+    <td>H1 2020</td>
   </tr>
   <tr>
     <td>Export statistics for a Single Send or an Automation</td>
-    <td>Future</td>
-  </tr>
-  <tr>
-    <td>Automation API</td>
-    <td>Future</td>
+    <td>H1 2020</td>
   </tr>
 </table>
