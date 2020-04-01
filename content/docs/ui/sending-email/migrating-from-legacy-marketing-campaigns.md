@@ -403,7 +403,7 @@ You will have access to legacy Marketing Campaigns for a period of time allowing
 ![]({{root_url}}/img/unique-clicks-data.png "")
 
 3. Click **Export CSV** in the upper right corner. A CSV file containing your data will download to the folder specified on your computer.
-Once the CSV file has finished processing, a link to download the CSV will be sent to the email(s) you have set to receive notifications about new Marketing Campaigns activity.
+Once the CSV file has finished processing, a link to download the CSV will be sent to the email(s) you have set to receive notifications about Marketing Campaigns activity.
 
 ### Contact Engagement History
 
